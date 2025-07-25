@@ -3,36 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Roma App - Surplus Food Deals</title>
+  <title>Roma - Surplus Food Deals</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-
   <main class="landing-container">
+
+    <!-- Left iPhone mockup -->
     <section class="mockup">
       <div class="iphone-frame">
         <div class="screen">
-          <div class="header">Roma</div>
-          <img src="B4AC8294-6112-4EEF-9301-C911A594ACE3.png" alt="Surplus Food" class="mockup-img">
-          <div class="mockup-search">
-            <i data-feather="search"></i>
-            <input type="text" placeholder="Enter location or zip" />
+          <div class="top-bar">
+            <span class="menu"><i data-feather="menu"></i></span>
+            <h2>Roma</h2>
+            <span class="spacer"></span>
           </div>
-          <div class="bottom-nav">
-            <i data-feather="home"></i>
-            <i data-feather="search"></i>
-            <i data-feather="user"></i>
+
+          <img src="food.jpg" class="mockup-img" alt="Spaghetti Plate">
+
+          <div class="mockup-content">
+            <h3>Get surplus restaurant food at a discount</h3>
+
+            <div class="search-bar">
+              <i data-feather="search"></i>
+              <input type="text" placeholder="Enter location">
+            </div>
+
+            <div class="categories">
+              <div class="cat"><img src="food.jpg"><span>Discounted meals</span></div>
+              <div class="cat"><img src="https://cdn.pixabay.com/photo/2020/06/18/17/36/meatballs-5315105_1280.jpg"><span>Groceries</span></div>
+              <div class="cat"><img src="https://cdn.pixabay.com/photo/2016/02/05/15/36/bakery-1181044_1280.jpg"><span>Bakery</span></div>
+            </div>
+
+            <div class="near-you">
+              <img src="https://cdn.pixabay.com/photo/2017/09/02/13/55/pasta-2703483_1280.jpg" alt="Bella Cucina">
+              <div>
+                <strong>Bella Cucina</strong><br>
+                <small>Italian, Pasta, Pizza</small><br>
+                <span class="stars">⭐ 4.5 &nbsp; • &nbsp; 30–40 min</span>
+              </div>
+            </div>
+
+            <button class="order-btn">Order now</button>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Right content -->
     <section class="content">
-      <h1>Quality food<br>at a reduced cost</h1>
+      <h1>Get surplus<br>restaurant food<br>at a discount</h1>
       <div class="location-search">
         <i data-feather="map-pin"></i>
-        <input type="text" placeholder="Enter location or zip">
+        <input type="text" placeholder="Enter location">
       </div>
       <div class="app-buttons">
         <a href="#"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" /></a>
@@ -45,8 +69,6 @@
     &copy; 2024 WordPress
   </footer>
 
-  <script>
-    feather.replace();
-  </script>
+  <script>feather.replace();</script>
 </body>
 </html>
