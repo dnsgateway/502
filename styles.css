@@ -25,6 +25,9 @@ top-nav {
   font-size: 1.5rem;
   font-weight: 700;
 }
+.nav {
+  display: flex;
+}
 
 .nav-links a {
   text-decoration: none;
